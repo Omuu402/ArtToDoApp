@@ -1,3 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
+    <!--
+        strings.xml — all user-visible text in one place.
+        Centralising strings makes it easy to change wording or add translations later.
+    -->
+
+    <!-- App name (shown in launcher and manifest) -->
     <string name="app_name">ArtToDoApp</string>
+
+    <!-- Toolbar title -->
+    <string name="toolbar_title">My Canvas</string>
+
+    <!-- Tab labels -->
+    <string name="tab_ongoing">Ongoing</string>
+    <string name="tab_upcoming">Upcoming</string>
+    <string name="tab_finished">Finished</string>
+
+    <!-- Empty state messages -->
+    <string name="empty_ongoing">No ongoing works yet.\nTap + to add your first project.</string>
+    <string name="empty_upcoming">No upcoming works planned.</string>
+    <string name="empty_finished">Nothing finished yet. Keep painting!</string>
+
+    <!-- Dialog titles -->
+    <string name="dialog_title_add">Add New Work</string>
+    <string name="dialog_title_edit">Edit Work</string>
+
+    <!-- Form field hints -->
+    <string name="hint_title">Title *</string>
+    <string name="hint_medium">Medium / Style (e.g. Oil on canvas)</string>
+    <string name="hint_description">Description / Notes</string>
+    <string name="hint_due_date">Due Date (YYYY-MM-DD)</string>
+
+    <!-- Buttons -->
+    <string name="btn_save">Save Work</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_edit">Edit</string>
+    <string name="btn_delete">Delete</string>
+
+    <!-- Delete confirmation dialog -->
+    <string name="delete_title">Delete this work?</string>
+    <string name="delete_message">This action cannot be undone.</string>
+
+    <!-- Toast messages -->
+    <string name="toast_added">Work added!</string>
+    <string name="toast_updated">Work updated!</string>
+    <string name="toast_deleted">Work deleted.</string>
+
+    <!-- Content descriptions for accessibility -->
+    <string name="cd_fab">Add new work</string>
+    <string name="cd_empty_icon">No tasks illustration</string>
+
+    <!--
+        Status spinner options — the ORDER here matters.
+        spinnerStatus.selectedItem.toString().uppercase() is compared
+        against Task.status in the database ("ONGOING", "UPCOMING", "FINISHED").
+
+        ⚠️ Do NOT change the order or spelling without updating AddEditTaskDialog.kt
+    -->
+    <string-array name="status_options">
+        <item>Ongoing</item>
+        <item>Upcoming</item>
+        <item>Finished</item>
+    </string-array>
+
 </resources>

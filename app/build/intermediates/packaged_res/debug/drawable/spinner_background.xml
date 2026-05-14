@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    spinner_background.xml — a simple outlined box for the Status spinner in the dialog.
+
+    Gives the spinner a border matching the TextInputLayout fields above it.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <corners android:radius="4dp" />
+    <stroke android:width="1dp" android:color="#E0DDD8" />
+    <solid android:color="#FFFFFF" />
+</shape>

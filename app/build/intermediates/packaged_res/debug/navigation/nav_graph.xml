@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    nav_graph.xml — the Navigation Component's route map.
+
+    startDestination: the first tab shown when the app opens (Ongoing).
+
+    Each <fragment> entry:
+    - android:id       : matches an item id in bottom_nav_menu.xml
+    - android:name     : full package path to the Fragment class
+    - android:label    : text shown in the Toolbar when this tab is active
+-->
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_ongoing">
+
+    <!-- Ongoing Works tab -->
+    <fragment
+        android:id="@+id/nav_ongoing"
+        android:name="com.patelomkumar.arttodoapp.ui.ongoing.OngoingFragment"
+        android:label="Ongoing Works" />
+
+    <!-- Upcoming Works tab -->
+    <fragment
+        android:id="@+id/nav_upcoming"
+        android:name="com.patelomkumar.arttodoapp.ui.upcoming.UpcomingFragment"
+        android:label="Upcoming Works" />
+
+    <!-- Finished Works tab -->
+    <fragment
+        android:id="@+id/nav_finished"
+        android:name="com.patelomkumar.arttodoapp.ui.finished.FinishedFragment"
+        android:label="Finished Works" />
+
+</navigation>

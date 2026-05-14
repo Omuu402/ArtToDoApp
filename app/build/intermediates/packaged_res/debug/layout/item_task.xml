@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    item_task.xml — a single task card in the RecyclerView.
+
+    Structure:
+    MaterialCardView (flat card with subtle border — no shadow)
+    └── LinearLayout (vertical)
+        ├── Row: title + status dot
+        ├── Medium / style label (hidden if empty)
+        ├── Description text (max 2 lines, ellipsized)
+        ├── Due date (hidden if empty)
+        └── Action row: [Edit] [Delete] buttons (right-aligned)
+
+    ViewHolder.bind() in TaskAdapter.kt populates this layout with Task data.
+-->
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/white"
+    app:cardElevation="0dp"
+    app:strokeColor="@color/soft_border"
+    app:strokeWidth="1dp"
+    app:cardCornerRadius="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- ── Title Row ─────────────────────────────────────────────────── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <!-- Task title (bold, charcoal) -->
+            <TextView
+                android:id="@+id/tvTaskTitle"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Artwork Title"
+                android:textSize="15sp"
+                android:textColor="@color/charcoal"
+                android:textStyle="bold"
+                android:lineSpacingMultiplier="1.1" />
+
+            <!-- Small coloured status dot (right side of title) -->
+            <View
+                android:id="@+id/viewStatusDot"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/circle_dot"
+                android:backgroundTint="@color/ongoing_color" />
+
+        </LinearLayout>
+
+        <!-- ── Medium / Style ────────────────────────────────────────────── -->
+        <!--
+            e.g. "Oil on canvas". Set visibility = GONE if the string is blank.
+        -->
+        <TextView
+            android:id="@+id/tvTaskMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Oil on canvas"
+            android:textSize="12sp"
+            android:textColor="@color/ongoing_color"
+            android:textStyle="italic" />
+
+        <!-- ── Description ───────────────────────────────────────────────── -->
+        <TextView
+            android:id="@+id/tvTaskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="No description added."
+            android:textSize="13sp"
+            android:textColor="@color/warm_grey"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:lineSpacingMultiplier="1.3" />
+
+        <!-- ── Due Date ──────────────────────────────────────────────────── -->
+        <TextView
+            android:id="@+id/tvTaskDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="📅 2026-06-01"
+            android:textSize="11sp"
+            android:textColor="@color/warm_grey" />
+
+        <!-- ── Divider ───────────────────────────────────────────────────── -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/soft_border" />
+
+        <!-- ── Actions Row ───────────────────────────────────────────────── -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <!-- EDIT button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnEdit"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit"
+                android:textColor="@color/charcoal"
+                android:textSize="13sp"
+                android:letterSpacing="0" />
+
+            <!-- DELETE button -->
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDelete"
+                style="@style/Widget.Material3.Button.TextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Delete"
+                android:textColor="#B00020"
+                android:textSize="13sp"
+                android:letterSpacing="0" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

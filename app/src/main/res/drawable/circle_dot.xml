@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    circle_dot.xml — a small filled circle used as the status indicator dot on each task card.
+
+    Used in item_task.xml as:
+        android:background="@drawable/circle_dot"
+        android:backgroundTint="@color/ongoing_color"  ← tinted per status in adapter
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="oval">
+    <solid android:color="#000000" />   <!-- colour is overridden by backgroundTint in code -->
+</shape>

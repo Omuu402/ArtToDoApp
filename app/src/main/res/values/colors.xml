@@ -1,5 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="black">#FF000000</color>
-    <color name="white">#FFFFFFFF</color>
+    <!--
+        ── CORE PALETTE ─────────────────────────────────────────────────────────
+        Minimalist neutral palette — no harsh pure black or pure white.
+    -->
+
+    <!-- Main background — warm off-white (not harsh pure white) -->
+    <color name="cream_white">#FAFAF7</color>
+
+    <!-- Primary text — charcoal (warmer than pure black) -->
+    <color name="charcoal">#2C2C2C</color>
+
+    <!-- Secondary / placeholder text -->
+    <color name="warm_grey">#8A8A8A</color>
+
+    <!-- Card border / divider lines -->
+    <color name="soft_border">#E0DDD8</color>
+
+    <!-- Pure white — for card surfaces inside the cream background -->
+    <color name="white">#FFFFFF</color>
+
+    <!--
+        ── STATUS COLOURS ────────────────────────────────────────────────────────
+        Subtle, muted — not bright/primary colours.
+    -->
+
+    <!-- Ongoing: muted steel blue -->
+    <color name="ongoing_color">#5C7A9F</color>
+
+    <!-- Upcoming: muted sage green -->
+    <color name="upcoming_color">#7A9F5C</color>
+
+    <!-- Finished: muted terracotta -->
+    <color name="finished_color">#9F7A5C</color>
+
+    <!--
+        ── MATERIAL REQUIRED ─────────────────────────────────────────────────────
+        These names are referenced by the Material theme system.
+    -->
+    <color name="colorPrimary">#2C2C2C</color>
+    <color name="colorPrimaryVariant">#3D3D3D</color>
+    <color name="colorOnPrimary">#FAFAF7</color>
+    <color name="colorSecondary">#5C7A9F</color>
+    <color name="colorOnSecondary">#FAFAF7</color>
+    <color name="colorSurface">#FAFAF7</color>
+    <color name="colorOnSurface">#2C2C2C</color>
+    <color name="colorBackground">#FAFAF7</color>
+    <color name="colorError">#B00020</color>
+    <color name="colorOnError">#FFFFFF</color>
 </resources>

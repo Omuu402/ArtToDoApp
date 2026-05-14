@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/activity_main.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/dialog_add_edit_task.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/dialog_add_edit_task.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/fragment_task_list.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_task_list.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/fragment_upcoming.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_upcoming.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/fragment_ongoing.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_ongoing.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/item_task.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/item_task.xml"
+    },
+    {
+        "merged": "com.patelomkumar.arttodoapp-mergeDebugResources-51:/layout/fragment_finished.xml",
+        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_finished.xml"
+    }
+]

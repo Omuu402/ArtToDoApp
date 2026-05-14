@@ -1,9 +1,52 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
-    <!-- Base application theme. -->
-    <style name="Base.Theme.ArtToDoApp" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your light theme here. -->
-        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--
+        Base application theme.
+        Parent: Theme.Material3.Light.NoActionBar
+        - "Light"       : light background (we override to cream)
+        - "NoActionBar" : hides the default ActionBar so we can use our own MaterialToolbar
+    -->
+    <style name="Theme.ArtistToDo" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/charcoal</item>
+        <item name="colorOnPrimary">@color/cream_white</item>
+        <item name="colorSecondary">@color/ongoing_color</item>
+        <item name="colorOnSecondary">@color/cream_white</item>
+        <item name="colorSurface">@color/cream_white</item>
+        <item name="colorOnSurface">@color/charcoal</item>
+        <item name="android:colorBackground">@color/cream_white</item>
+        <item name="colorError">@color/colorError</item>
+
+        <!-- Status bar and Navigation bar -->
+        <item name="android:statusBarColor">@color/cream_white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@color/cream_white</item>
+        <item name="android:windowLightNavigationBar">true</item>
+
+        <!-- Disable elevation overlays (keeps surfaces flat — no grey tint) -->
+        <item name="elevationOverlayEnabled">false</item>
     </style>
 
-    <style name="Theme.ArtToDoApp" parent="Base.Theme.ArtToDoApp" />
+    <!--
+        BottomSheetDialogFragment style.
+        - Rounded top corners on the sheet
+        - Transparent background (the layout itself provides the white background)
+    -->
+    <style name="BottomSheetDialogTheme" parent="Theme.Material3.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Material3.BottomSheet">
+        <item name="backgroundTint">@color/cream_white</item>
+        <item name="shapeAppearance">@style/ShapeAppearance.BottomSheet</item>
+    </style>
+
+    <style name="ShapeAppearance.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">16dp</item>
+        <item name="cornerSizeTopRight">16dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+
 </resources>
