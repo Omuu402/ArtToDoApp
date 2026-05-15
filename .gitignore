@@ -1,0 +1,27 @@
+# Built output
+build/
+app/build/
+
+# Gradle files
+.gradle/
+local.properties
+
+# Android Studio / IntelliJ files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Keystore files
+*.jks
+*.keystore
+
+# Log/temp files
+*.log
+*.tmp
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
