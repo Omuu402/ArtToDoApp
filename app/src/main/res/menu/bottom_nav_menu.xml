@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    bottom_nav_menu.xml — defines the 3 tabs in the BottomNavigationView.
 
-    Each <item>:
-    - android:id    : MUST match the fragment id in nav_graph.xml exactly —
-                      this is how Navigation Component links tabs to fragments automatically
-    - android:icon  : Material vector icon (create via File → New → Vector Asset)
-    - android:title : Label shown below the icon
-
-    Icons to create via Vector Asset wizard:
-      ic_brush        → search "brush"
-      ic_palette      → search "palette"
-      ic_check_circle → search "check circle"
--->
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item

@@ -1,18 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    dialog_add_edit_task.xml — layout for the Add/Edit BottomSheetDialogFragment.
 
-    Structure:
-    NestedScrollView (allows form to scroll if screen is small)
-    └── LinearLayout (vertical form)
-        ├── Title ("Add New Work" or "Edit Work")
-        ├── Title field
-        ├── Medium field
-        ├── Description field (multiline)
-        ├── Due Date field
-        ├── Status spinner (Ongoing / Upcoming / Finished)
-        └── [Cancel] [Save Work] buttons
--->
 <androidx.core.widget.NestedScrollView
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -26,7 +13,7 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
-        <!-- Drag handle indicator (optional visual cue for bottom sheet) -->
+        
         <View
             android:layout_width="36dp"
             android:layout_height="4dp"
@@ -35,7 +22,7 @@
             android:background="@color/soft_border"
             android:backgroundTint="@color/warm_grey" />
 
-        <!-- ── Dialog Title ────────────────────────────────────────────────── -->
+        
         <TextView
             android:id="@+id/tvDialogTitle"
             android:layout_width="match_parent"
@@ -46,7 +33,7 @@
             android:textStyle="bold"
             android:layout_marginBottom="20dp" />
 
-        <!-- ── Title Field ────────────────────────────────────────────────── -->
+        
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -63,7 +50,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- ── Medium / Style Field ───────────────────────────────────────── -->
+        
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -80,7 +67,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- ── Description Field ─────────────────────────────────────────── -->
+        
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -99,7 +86,7 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- ── Due Date Field ────────────────────────────────────────────── -->
+        
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -116,10 +103,8 @@
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- ── Status Spinner ─────────────────────────────────────────────── -->
-        <!--
-            Label above the spinner
-        -->
+        
+        
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -128,10 +113,7 @@
             android:textColor="@color/warm_grey"
             android:layout_marginBottom="4dp" />
 
-        <!--
-            Spinner populated by ArrayAdapter in AddEditTaskDialog.kt
-            using the R.array.status_options string array from strings.xml
-        -->
+        
         <Spinner
             android:id="@+id/spinnerStatus"
             android:layout_width="match_parent"
@@ -141,14 +123,14 @@
             android:paddingStart="12dp"
             android:paddingEnd="12dp" />
 
-        <!-- ── Action Buttons ─────────────────────────────────────────────── -->
+        
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginBottom="8dp">
 
-            <!-- Cancel -->
+            
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnCancel"
                 style="@style/Widget.Material3.Button.OutlinedButton"
@@ -160,7 +142,7 @@
                 android:textColor="@color/charcoal"
                 app:strokeColor="@color/soft_border" />
 
-            <!-- Save -->
+            
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnSave"
                 android:layout_width="0dp"

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:1-39:12
-INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:1-39:12
-INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:1-39:12
-INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:1-39:12
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:3:1-29:12
+INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:3:1-29:12
+INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:3:1-29:12
+INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:3:1-29:12
 MERGED from [androidx.databinding:viewbinding:8.2.2] C:\Users\Om\.gradle\caches\transforms-3\de56ecbc03d25dfce0efee6c471bd0c8\transformed\jetified-viewbinding-8.2.2\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.navigation:navigation-common:2.7.6] C:\Users\Om\.gradle\caches\transforms-3\5ff7b3c1f27fc9c9ffae4579d0c55b99\transformed\navigation-common-2.7.6\AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-common-ktx:2.7.6] C:\Users\Om\.gradle\caches\transforms-3\adf2d39762ee00bf1e2c9b28d6fc378a\transformed\navigation-common-ktx-2.7.6\AndroidManifest.xml:2:1-7:12
@@ -74,10 +74,10 @@ MERGED from [androidx.print:print:1.0.0] C:\Users\Om\.gradle\caches\transforms-3
 	android:versionCode
 		INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:11-69
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:3:11-69
 application
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:12:5-37:19
-INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:12:5-37:19
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:5:5-27:19
+INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:5:5-27:19
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Om\.gradle\caches\transforms-3\bec7de6f5493746bd6b85bdfc260f89d\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.11.0] C:\Users\Om\.gradle\caches\transforms-3\bec7de6f5493746bd6b85bdfc260f89d\transformed\material-1.11.0\AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\Om\.gradle\caches\transforms-3\5b1e847eb52da651a87fd4b6c66d222b\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
@@ -103,35 +103,35 @@ MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Users\Om\.gradle\caches\
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.12.0] C:\Users\Om\.gradle\caches\transforms-3\217cd4443c329c3de6d6b6409afab4f6\transformed\core-1.12.0\AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:17:9-35
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:10:9-35
 	android:label
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:15:9-41
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:8:9-41
 	android:roundIcon
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:16:9-54
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:9:9-54
 	android:icon
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:14:9-43
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:7:9-43
 	android:allowBackup
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:13:9-35
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:theme
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:18:9-48
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:11:9-48
 activity#com.patelomkumar.arttodoapp.MainActivity
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:24:9-35:20
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:14:9-25:20
 	android:windowSoftInputMode
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:27:13-55
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:17:13-55
 	android:exported
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:26:13-36
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:16:13-36
 	android:name
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:25:13-68
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:15:13-68
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:30:13-33:29
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:20:13-23:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:31:17-69
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:31:25-66
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:32:17-77
+ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:22:17-77
 	android:name
-		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:32:27-74
+		ADDED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml:22:27-74
 uses-sdk
 INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Om\AndroidStudioProjects\ArtToDoApp\app\src\main\AndroidManifest.xml

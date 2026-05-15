@@ -1,110 +1,110 @@
 [
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_fragment_upcoming.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_upcoming.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\menu\\bottom_nav_menu.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_brush.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_brush.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_fragment_task_list.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_task_list.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_fragment_task_list.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\fragment_task_list.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_palette.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_palette.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_brush.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_brush.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/mipmap-anydpi_ic_launcher.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/mipmap-anydpi/ic_launcher.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_fragment_upcoming.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\fragment_upcoming.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_circle_dot.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/circle_dot.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_fragment_finished.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\fragment_finished.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/anim_slide_in_left.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/anim/slide_in_left.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_rounded_top_sheet.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\rounded_top_sheet.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_add.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/mipmap-anydpi_ic_launcher_round.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/mipmap-anydpi/ic_launcher_round.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_circle_dot.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\circle_dot.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_fragment_finished.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_finished.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_palette.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_palette.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_add.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_item_task.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\item_task.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_fragment_ongoing.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\fragment_ongoing.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_dialog_add_edit_task.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/dialog_add_edit_task.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_launcher_background.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_fragment_ongoing.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/fragment_ongoing.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\activity_main.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_launcher_foreground.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_launcher_foreground.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\layout_dialog_add_edit_task.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\layout\\dialog_add_edit_task.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/anim_slide_in_right.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/anim/slide_in_right.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/navigation_nav_graph.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/navigation/nav_graph.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\anim_slide_out_right.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\anim\\slide_out_right.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_rounded_top_sheet.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/rounded_top_sheet.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_ic_check_circle.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\ic_check_circle.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/anim_slide_out_left.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/anim/slide_out_left.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\drawable\\spinner_background.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/anim_slide_out_right.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/anim/slide_out_right.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\mipmap-anydpi\\ic_launcher.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_item_task.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/item_task.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\navigation\\nav_graph.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_check_circle.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_check_circle.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\anim_slide_in_left.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\anim\\slide_in_left.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/ic_launcher_background.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\color_bottom_nav_selector.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\color\\bottom_nav_selector.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/color_bottom_nav_selector.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/color/bottom_nav_selector.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\mipmap-anydpi\\ic_launcher_round.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/drawable_spinner_background.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/drawable/spinner_background.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\anim_slide_out_left.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\anim\\slide_out_left.xml"
     },
     {
-        "merged": "com.patelomkumar.arttodoapp-merged_res-52:/layout_activity_main.xml.flat",
-        "source": "com.patelomkumar.arttodoapp-main-54:/layout/activity_main.xml"
+        "merged": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-merged_res-52:\\anim_slide_in_right.xml.flat",
+        "source": "C:\\Users\\Om\\.gradle\\daemon\\8.2\\com.patelomkumar.arttodoapp-main-54:\\anim\\slide_in_right.xml"
     }
 ]

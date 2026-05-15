@@ -19,13 +19,6 @@ import com.google.android.material.datepicker.MaterialDatePicker
 import java.text.SimpleDateFormat
 import java.util.*
 
-/**
- * AddEditTaskDialog — a Material BottomSheetDialogFragment.
- * Used for BOTH adding a new task AND editing an existing one.
- *
- * Open to ADD:   AddEditTaskDialog.newInstance(defaultStatus = "ONGOING").show(...)
- * Open to EDIT:  AddEditTaskDialog.newInstance(taskId = task.id, defaultStatus = task.status).show(...)
- */
 class AddEditTaskDialog : BottomSheetDialogFragment() {
     
     override fun getTheme(): Int = R.style.BottomSheetDialogTheme
@@ -83,7 +76,6 @@ class AddEditTaskDialog : BottomSheetDialogFragment() {
         binding.btnSave.setOnClickListener   { onSaveClicked() }
         binding.btnCancel.setOnClickListener { dismiss() }
         
-        // Date Picker setup
         binding.etDueDate.setOnClickListener { showDatePicker() }
         binding.etDueDate.isFocusable = false
         binding.etDueDate.isClickable = true

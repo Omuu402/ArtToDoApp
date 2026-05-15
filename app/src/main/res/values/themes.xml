@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!--
-        Base application theme.
-        Parent: Theme.Material3.Light.NoActionBar
-        - "Light"       : light background (we override to cream)
-        - "NoActionBar" : hides the default ActionBar so we can use our own MaterialToolbar
-    -->
+    
     <style name="Theme.ArtistToDo" parent="Theme.Material3.Light.NoActionBar">
         <item name="colorPrimary">@color/charcoal</item>
         <item name="colorOnPrimary">@color/cream_white</item>
@@ -17,21 +12,16 @@
         <item name="android:colorBackground">@color/cream_white</item>
         <item name="colorError">@color/colorError</item>
 
-        <!-- Status bar and Navigation bar -->
+        
         <item name="android:statusBarColor">@color/cream_white</item>
         <item name="android:windowLightStatusBar">true</item>
         <item name="android:navigationBarColor">@color/cream_white</item>
-        <item name="android:windowLightNavigationBar">true</item>
 
-        <!-- Disable elevation overlays (keeps surfaces flat — no grey tint) -->
+        
         <item name="elevationOverlayEnabled">false</item>
     </style>
 
-    <!--
-        BottomSheetDialogFragment style.
-        - Rounded top corners on the sheet
-        - Transparent background (the layout itself provides the white background)
-    -->
+    
     <style name="BottomSheetDialogTheme" parent="Theme.Material3.Light.BottomSheetDialog">
         <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
     </style>

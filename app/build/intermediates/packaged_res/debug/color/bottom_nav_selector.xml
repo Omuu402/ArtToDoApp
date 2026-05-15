@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    bottom_nav_selector.xml — colour selector for BottomNavigationView icons and labels.
 
-    state_checked="true"  → selected/active tab → charcoal (dark)
-    default              → unselected tab      → warm_grey
-
-    Referenced in activity_main.xml as:
-        app:itemIconTint="@color/bottom_nav_selector"
-        app:itemTextColor="@color/bottom_nav_selector"
--->
 <selector xmlns:android="http://schemas.android.com/apk/res/android">
     <item android:color="@color/charcoal" android:state_checked="true" />
     <item android:color="@color/warm_grey" />

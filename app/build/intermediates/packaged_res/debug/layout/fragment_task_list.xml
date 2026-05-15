@@ -1,16 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-    fragment_task_list.xml — shared by ALL THREE fragments (Ongoing, Upcoming, Finished).
 
-    Structure:
-    CoordinatorLayout
-    ├── RecyclerView       (scrollable list of task cards)
-    ├── LinearLayout       (empty-state message shown when list is empty)
-    └── FloatingActionButton (FAB: opens Add Task dialog)
-
-    The Fragment's Kotlin code toggles RecyclerView/layoutEmpty visibility
-    based on whether the task list is empty.
--->
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -18,7 +7,7 @@
     android:layout_height="match_parent"
     android:background="@color/cream_white">
 
-    <!-- ── Task List ────────────────────────────────────────────────────────── -->
+    
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerView"
         android:layout_width="match_parent"
@@ -28,12 +17,8 @@
         android:paddingBottom="80dp"
         app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 
-    <!-- ── Empty State ──────────────────────────────────────────────────────── -->
-    <!--
-        Shown when there are no tasks. Centred on screen.
-        Each fragment's Kotlin code sets the icon and message via code,
-        or you can hardcode them here per layout copy.
-    -->
+    
+    
     <LinearLayout
         android:id="@+id/layoutEmpty"
         android:layout_width="wrap_content"
@@ -70,11 +55,8 @@
 
     </LinearLayout>
 
-    <!-- ── FAB: Add Task ────────────────────────────────────────────────────── -->
-    <!--
-        Positioned bottom-right. Tapping it opens AddEditTaskDialog in ADD mode.
-        The icon is a simple "+" (ic_add vector asset).
-    -->
+    
+    
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fabAddTask"
         android:layout_width="wrap_content"
